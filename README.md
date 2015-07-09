@@ -11,8 +11,7 @@ Step 1 - Defining a template.
 
 Template Example 
 
-    <!-- IE does not allow invalid styles. Please use "data-" prefix as a work around. 
-    The attribute style will become data-style  -->
+    <!-- IE does not allow invalid styles. Please use "data-" prefix as a work around. EX. data-style="..."  -->
     <article id="Contact{Id}"  style="padding: 10px; background-color: {AccessColor};"> 
       <h2>{LastName}, {FirstName}</h2> 
       <div>Position: {Position}</div> 
