@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Data Element Tests</title>
+</head>
+<body>
+    <h1>DataElement Test</h1>
+    <section id="Contacts">
+        <!--Style has the data- prefix because { is invalid inside style attribute. This is a work around only for internet explorer -->
+        <article id="Contact{Id}" 
+                 data-style="border: 2px dashed silver; display: inline-block; margin: 10px; padding: 10px; background-color: {AccessColor};">
+            <h2>{LastName}, {FirstName}</h2>
+            <div>Position: {Position}</div>
+            <div>E-mail: <a href="mailto:{Email}">{Email}</a></div>
+            <div>
+                <textarea>{Comment}</textarea>
+            </div>
+        </article>
+    </section>
+    <script src="DataElement.js"></script>
+    <script src="DataSource.js"></script>
+    <script src="DataElementTests.js"></script>
+</body>
+</html>
