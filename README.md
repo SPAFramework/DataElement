@@ -9,10 +9,11 @@ Step 1 - Defining a template.
   The {DataKey} tag can be included anywhere in your template including attributes mixed with 
   with other text or by itself.
 
-Template Example
+Template Example 
 
-    <article id="Contact{Id}"  
-     style="border: 2px dashed silver; display: inline-block; margin: 10px; padding: 10px; background-color: {AccessColor};"> 
+    <!-- IE does not allow invalid styles. Please use "data-" prefix as a work around. 
+    The attribute style will become data-style  -->
+    <article id="Contact{Id}"  style="padding: 10px; background-color: {AccessColor};"> 
       <h2>{LastName}, {FirstName}</h2> 
       <div>Position: {Position}</div> 
       <div>E-mail: <a href="mailto:{Email}">{Email}</a></div> 
