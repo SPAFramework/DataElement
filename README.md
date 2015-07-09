@@ -9,7 +9,7 @@ Step 1 - Defining a template.
   The {DataKey} tag can be included anywhere in your template including attributes mixed with 
   with other text or by itself.
 
-  //Template Example
+Template Example
     <article id="Contact{Id}"  
      style="border: 2px dashed silver; display: inline-block; margin: 10px; padding: 10px; background-color: {AccessColor};"> 
       <h2>{LastName}, {FirstName}</h2> 
@@ -18,5 +18,5 @@ Step 1 - Defining a template.
       <div> 
         <textarea>{Comment}</textarea> 
       </div> 
-    </article> 
+    </article>
 
