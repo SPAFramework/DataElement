@@ -10,6 +10,7 @@ Step 1 - Defining a template.
   with other text or by itself.
 
 Template Example
+
     <article id="Contact{Id}"  
      style="border: 2px dashed silver; display: inline-block; margin: 10px; padding: 10px; background-color: {AccessColor};"> 
       <h2>{LastName}, {FirstName}</h2> 
@@ -19,4 +20,5 @@ Template Example
         <textarea>{Comment}</textarea> 
       </div> 
     </article>
+
 
